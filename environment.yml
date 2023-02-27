@@ -1,5 +1,8 @@
-name: project-template
+name: scidoggo
 dependencies:
   - numpy
   - scipy
   - scikit-learn
+  - pip
+  - pip:
+    - pythran

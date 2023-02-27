@@ -1,1 +1,10 @@
 include requirements.txt
+
+# manage which files get distributed
+
+recursive-exclude scidoggo/_rbf _rbfinterp_pythran*.cpp
+recursive-exclude scidoggo/_rbf _rbfinterp_pythran*.so
+recursive-exclude scidoggo/_rbf _rbfinterp_pythran*.pyd
+
+# Misc
+# global-exclude *.py[co]

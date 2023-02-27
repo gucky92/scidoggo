@@ -17,8 +17,8 @@
 .. |ReadTheDocs| image:: https://readthedocs.org/projects/scidoggo/badge/?version=latest
 .. _ReadTheDocs: https://scidoggo.readthedocs.io/en/latest/?badge=latest
 
-project-template - A template for scikit-learn contributions
-============================================================
+A collection of models with a scikit-learn API
+==============================================
 
 .. _scikit-learn: https://scikit-learn.org
 

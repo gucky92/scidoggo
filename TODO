@@ -1,0 +1,8 @@
+* continuous integration
+* documentation
+* models:
+    * selectivity models
+    * scipy rbf modified models
+    * PLS modified models
+    * linear connectome model?
+    * docstrings

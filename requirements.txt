@@ -2,3 +2,8 @@ numpy
 scipy
 scikit-learn
 pythran
+pytorch
+skorch
+cvxpy
+pyro
+networkx

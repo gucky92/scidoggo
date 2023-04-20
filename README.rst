@@ -31,7 +31,7 @@ Models
 * Partial Least Squares: modification of `sklearn.pls` models to allow for optional bias removal and orthogonalization of rotations and loadings
 * RbfModel: modified and sklearn-compatible version of the `scipy.interpolate.RBFInterpolator` model
 * TwoLayerEncodingModel: two layer encoding model with different objective functions
-* Rank1PlusSparse: linear model with a rank one constraint and 
+* Rank1PlusSparse: linear model with a rank one constraint and an added sparse weight matrix
 * RankConstraint: linear model with a rank constraint (different approach to PLS)
 * Tikhonov regression
 * Collection of probabilistic circuit model designs using pytorch and pyro

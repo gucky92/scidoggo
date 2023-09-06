@@ -34,7 +34,7 @@ Models
     * These models allow you to model circuits and incorporating anatomical constraints as priors
 * Deep implicit circuit models designed using pytorch and lightning
     * The models allow you to model constrained circuits assuming the observed responses are at steady-state
-* Rank1PlusSparse: linear model with a rank one constraint and 
+* Rank1PlusSparse: linear model with a rank one constraint and an added sparse weight matrix
 * RankConstraint: linear model with a rank constraint (different approach to PLS)
 * Tikhonov regression
 * TwoLayerEncodingModel: two layer encoding model with different objective functions

@@ -30,11 +30,15 @@ Models
 * Selectivity Model: model that non-linearly integrates input features to produce concave and convex isoresponse surfaces
 * Partial Least Squares: modification of `sklearn.pls` models to allow for optional bias removal and orthogonalization of rotations and loadings
 * RbfModel: modified and sklearn-compatible version of the `scipy.interpolate.RBFInterpolator` model
-* TwoLayerEncodingModel: two layer encoding model with different objective functions
+* Collection of probabilistic circuit model designs using pytorch and pyro
+    * These models allow you to model circuits and incorporating anatomical constraints as priors
+* Deep implicit circuit models designed using pytorch and lightning
+    * The models allow you to model constrained circuits assuming the observed responses are at steady-state
 * Rank1PlusSparse: linear model with a rank one constraint and 
 * RankConstraint: linear model with a rank constraint (different approach to PLS)
 * Tikhonov regression
-* Collection of probabilistic circuit model designs using pytorch and pyro
+* TwoLayerEncodingModel: two layer encoding model with different objective functions
+
 
 
 Acknowledgments

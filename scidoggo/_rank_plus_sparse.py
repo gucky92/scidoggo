@@ -71,7 +71,7 @@ class Rank1PlusSparse(MultiOutputMixin, RegressorMixin, LinearModel):
         """
         Fit model
 
-        X : {array-like, sparse matrix} of shape (n_samples, n_features)
+        X : array-like of shape (n_samples, n_features)
             Training data
 
         y : array-like of shape (n_samples, n_targets)
